@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'technology/index'
+  get 'economy/index'
+  get 'game/index'
+  get 'anime/index'
   get 'sessions/new'
   get 'sessions/create'
   get 'sessions/destroy'
