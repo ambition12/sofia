@@ -1,5 +1,5 @@
 class AnimeController < ApplicationController
   def index
-     @items = Article.thumbnails_in("https://news.google.com/news/rss/headlines/section/topic/WORLD")
+     @items = Article.thumbnails_in("http://anicobin.ldblog.jp/index.rdf")
   end
 end
