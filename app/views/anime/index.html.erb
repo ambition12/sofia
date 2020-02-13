@@ -21,9 +21,28 @@
 
 
 
-<div class="item col-md-4 col-sm-4 col-xs-6">
-    <a href="https://news.google.com/?hl=ja&tab=wn1&gl=JP&ceid=JP:ja" target="_blank" title="">
-    <img src="http://capture.heartrails.com/?https://news.google.com/?hl=ja&tab=wn1&gl=JP&ceid=JP:ja">
+<!-- サムネイル表示場所-->
+
+  <div class="row justify-content-between">
+  
+
+  <div class="item mt-3 col-md-3 offset-1 thum">
+    <a href=<%= @items[1].link %> target="_blank" title=<%= @items[1].title %>>
+    <img src=<%= "http://capture.heartrails.com/?" + @items[1].link%>>
     </a>
-    <p>テストサムネイル</p>
-</div>
+    <p><%= @items[1].title %></p>
+  </div>
+  
+  <div class="item mt-3 col-md-3 offset-1 thum">
+    <a href=<%= @items[2].link %> target="_blank" title=<%= @items[2].title %>>
+    <img src=<%= "http://capture.heartrails.com/?" + @items[2].link%>>
+    </a>
+    <p><%= @items[2].title %></p>
+  </div>
+  
+ <div class="item mt-3 col-md-3 offset-1 thum">
+    <a href=<%= @items[3].link %> target="_blank" title=<%= @items[3].title %>>
+    <img src=<%= "http://capture.heartrails.com/?" + @items[3].link%>>
+    </a>
+    <p><%= @items[3].title %></p>
+  </div>

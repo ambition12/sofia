@@ -23,7 +23,7 @@
 
   <div class="row justify-content-between">
   
-  <!--
+
   <div class="item mt-3 col-md-3 offset-1 thum">
     <a href=<%= @items[1].link %> target="_blank" title=<%= @items[1].title %>>
     <img src=<%= "http://capture.heartrails.com/?" + @items[1].link%>>
@@ -40,13 +40,14 @@
   
  <div class="item mt-3 col-md-3 offset-1 thum">
     <a href=<%= @items[3].link %> target="_blank" title=<%= @items[3].title %>>
-    <img src=<%= "http://capture.heartrails.com/?" + @items[3].link%>>
+    <img src= "http://capture.heartrails.com/200x150?https://news.google.com/?hl=ja&tab=rn1&gl=JP&ceid=JP:ja">
     </a>
     <p><%= @items[3].title %></p>
   </div>
   
-  -->
   
+  
+  <!--
   <% @items.each do |item| %>
   <div class="item mt-3 col-md-3 thum">
     <%= link_to item.link do %>
@@ -55,7 +56,7 @@
     <p><%= item.title %></p>
   </div>
 <% end %>
-  
+  -->
   
   </div>
 
