@@ -21,29 +21,58 @@
 
 <!-- サムネイル表示場所-->
 
-  <div class="row justify-content-between">
+  <div class="row justify-content-around">
   
 
-  <div class="item mt-3 col-md-3 offset-1 thum">
+  <div class="nav-item mt-3 col-md-3  thum">
     <a href=<%= @items[1].link %> target="_blank" title=<%= @items[1].title %>>
-    <img src=<%= "http://capture.heartrails.com/?" + @items[1].link%>>
+    <img class="col-md-12" src=<%= "http://capture.heartrails.com/?" + @items[1].link%>>
     </a>
     <p><%= @items[1].title %></p>
   </div>
   
-  <div class="item mt-3 col-md-3 offset-1 thum">
+  <div class="nav-item mt-3 col-md-3  thum">
     <a href=<%= @items[2].link %> target="_blank" title=<%= @items[2].title %>>
-    <img src=<%= "http://capture.heartrails.com/?" + @items[2].link%>>
+    <img class="col-md-12" src=<%= "http://capture.heartrails.com/?" + @items[2].link%>>
     </a>
     <p><%= @items[2].title %></p>
   </div>
   
- <div class="item mt-3 col-md-3 offset-1 thum">
+  
+ <div class="nav-item mt-3 col-md-3 thum">
     <a href=<%= @items[3].link %> target="_blank" title=<%= @items[3].title %>>
-    <img src= "http://capture.heartrails.com/200x150?https://news.google.com/?hl=ja&tab=rn1&gl=JP&ceid=JP:ja">
+    <img class="col-md-12"  src=<%= "http://capture.heartrails.com/?" + @items[3].link%>>
     </a>
     <p><%= @items[3].title %></p>
   </div>
+  
+  </div>
+  
+  
+  <div class="row justify-content-around">
+    
+  
+  <div class="nav-item mt-3 col-md-3  thum">
+    <a href=<%= @items[4].link %> target="_blank" title=<%= @items[4].title %>>
+    <img class="col-md-12" src=<%= "http://capture.heartrails.com/?" + @items[4].link%>>
+    </a>
+    <p><%= @items[4].title %></p>
+  </div>
+  
+  <div class="nav-item mt-3 col-md-3  thum">
+    <a href=<%= @items[5].link %> target="_blank" title=<%= @items[5].title %>>
+    <img class="col-md-12" src=<%= "http://capture.heartrails.com/?" + @items[5].link%>>
+    </a>
+    <p><%= @items[5].title %></p>
+  </div>
+  
+ <div class="nav-item mt-3 col-md-3 thum">
+    <a href=<%= @items[6].link %> target="_blank" title=<%= @items[6].title %>>
+    <img class="col-md-12"  src=<%= "http://capture.heartrails.com/?" + @items[6].link%>>
+    </a>
+    <p><%= @items[6].title %></p>
+  </div>
+  
   
   
   
